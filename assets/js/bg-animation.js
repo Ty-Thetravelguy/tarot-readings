@@ -15,11 +15,11 @@ document.addEventListener('DOMContentLoaded', function() {
     mouseX += (targetX - mouseX) * delayFactor;
     mouseY += (targetY - mouseY) * delayFactor;
 
-    const radius = Math.min(window.innerWidth, window.innerHeight) / 6; // Adjust radius as needed
+    const radius = Math.min(window.innerWidth, window.innerHeight) ; // Adjust radius as needed
 
     // Apply the gradient style with the updated position
     document.body.style.background = `
-      radial-gradient(circle at ${mouseX}px ${mouseY}px, #7b1fa2, #152238 ${radius}px)
+      radial-gradient(circle at ${mouseX}px ${mouseY}px, #c11e38, #220b34 ${radius}px)
     `;
 
     requestAnimationFrame(updateGradientPosition); // Continue updating the position

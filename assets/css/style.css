@@ -1,9 +1,40 @@
+
+.tarot-reader-img {
+    position: relative;
+    background: url('../images/tarot-reader-v6.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    height: 45vh;   
+}
+
 body {
     margin: 0;
     padding: 0;
-    background-color:   #152238; 
-    overflow: hidden;
-    height: 100vh; 
-  }
+    background-color:   #220b34; 
+    height: 700vh;
+}
   
+.title {
+    font-family: Cinzel, sans-serif;
+    color: #d3d3d3;
+    font-size: 70px;
+    padding-top: 15px;
+}
   
+.welcome-message {
+    font-family: Merriweather Sans, san-serif;
+    color: #d3d3d3;
+    font-size: 18px;
+    letter-spacing: 1px;
+    padding-top: 15px;
+}
+
+.btn-style {
+    color: #d3d3d3;
+    border-color: #d3d3d3;
+}
+
+.btn-style:hover {
+    background-color: #220b34;
+}
